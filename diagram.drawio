@@ -1,0 +1,157 @@
+<mxfile host="Electron" modified="2024-07-30T23:45:16.529Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="8yrqUrx-BqCrVBHnIEEb" version="24.5.3" type="device">
+  <diagram name="Page-1" id="U-fywteyoaqlSj2ysPrH">
+    <mxGraphModel dx="717" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-5" value="Training Pipeline" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="298" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-5" source="P3VmQVJn1eEsdR1Nqghh-7" target="P3VmQVJn1eEsdR1Nqghh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-7" value="Data Collection" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="40" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-8" value="Data Preprocesisng" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="40" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-16" value="Gene expression&lt;br&gt;1517 Cell lines &lt;br&gt;19k Genes" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-17" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="P3VmQVJn1eEsdR1Nqghh-18" source="P3VmQVJn1eEsdR1Nqghh-8" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-18" value="Feature Engineering" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="40" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-19" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="P3VmQVJn1eEsdR1Nqghh-20" source="P3VmQVJn1eEsdR1Nqghh-18" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-20" value="Model Training" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="40" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="P3VmQVJn1eEsdR1Nqghh-22" source="P3VmQVJn1eEsdR1Nqghh-20" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-22" value="Model Evaluation" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="40" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-23" value="Methylation data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="160" y="200" width="118" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-24" value="Copy number variation data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="160" y="280" width="118" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-25" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-5" source="P3VmQVJn1eEsdR1Nqghh-7" target="P3VmQVJn1eEsdR1Nqghh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-26" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-5" source="P3VmQVJn1eEsdR1Nqghh-7" target="P3VmQVJn1eEsdR1Nqghh-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-5" source="P3VmQVJn1eEsdR1Nqghh-7" target="P3VmQVJn1eEsdR1Nqghh-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-31" value="Additional omics data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="160" y="360" width="118" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-32" value="Drug response data 453 Drugs&lt;br&gt;IC50 Target variable" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-5">
+          <mxGeometry x="160" y="40" width="118" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-33" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-5" source="P3VmQVJn1eEsdR1Nqghh-7" target="P3VmQVJn1eEsdR1Nqghh-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-35" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;curved=1;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-5" source="P3VmQVJn1eEsdR1Nqghh-7" target="P3VmQVJn1eEsdR1Nqghh-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-9" value="Testing Pipeline" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="280" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-9" source="P3VmQVJn1eEsdR1Nqghh-11" target="P3VmQVJn1eEsdR1Nqghh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-11" value="Data Collection&lt;br&gt;(Validation and new data)" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-9">
+          <mxGeometry x="160" y="40" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-47" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-9" source="P3VmQVJn1eEsdR1Nqghh-12" target="P3VmQVJn1eEsdR1Nqghh-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-12" value="Data Preprocesisng" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-9">
+          <mxGeometry x="100" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-54" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-9" source="P3VmQVJn1eEsdR1Nqghh-45" target="P3VmQVJn1eEsdR1Nqghh-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-45" value="Inference" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-9">
+          <mxGeometry x="100" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-53" value="Model Evaluation" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-9">
+          <mxGeometry x="100" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="P3VmQVJn1eEsdR1Nqghh-9" source="P3VmQVJn1eEsdR1Nqghh-56" target="P3VmQVJn1eEsdR1Nqghh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-56" value="Patient profile&amp;nbsp;&lt;br&gt;(demographics, &lt;br&gt;cancer type,&lt;br&gt;genetic data, etc)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="P3VmQVJn1eEsdR1Nqghh-9">
+          <mxGeometry x="20" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-13" value="depmap mappings&lt;br&gt;(Model.csv)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-14" value="1773 Patients&lt;br&gt;1959 Cell lines&lt;br&gt;187 Cancer types" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-13" target="P3VmQVJn1eEsdR1Nqghh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-24" target="P3VmQVJn1eEsdR1Nqghh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-23" target="P3VmQVJn1eEsdR1Nqghh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-16" target="P3VmQVJn1eEsdR1Nqghh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-32" target="P3VmQVJn1eEsdR1Nqghh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;curved=1;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-31" target="P3VmQVJn1eEsdR1Nqghh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Training results&lt;/h1&gt;&lt;p&gt;Exploratory a&lt;span style=&quot;background-color: initial;&quot;&gt;nalysis of data relations.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Model evaluation for various configurations and algorithms, using appropriate metrics.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;One best performing ranking type model, persisted for test on validation subset, trained on combination of omics data.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-39" target="P3VmQVJn1eEsdR1Nqghh-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-39" value="Model repository" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-40" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-20" target="P3VmQVJn1eEsdR1Nqghh-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-41" target="P3VmQVJn1eEsdR1Nqghh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-41" value="Scalers, encoders, feature selectors&lt;br&gt;repository" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-42" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-8" target="P3VmQVJn1eEsdR1Nqghh-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-44" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" source="P3VmQVJn1eEsdR1Nqghh-18" target="P3VmQVJn1eEsdR1Nqghh-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P3VmQVJn1eEsdR1Nqghh-55" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Testing results&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;A separate pipeline to be used on unseen data that will be either kept as validation data from the original dataset or additional unseen data from other sources.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Upon inference, using the persisted model, a list of suggested drugs ranked by the potential efficacy for the patients profile will be predicted.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;The testing pipeline should be able to perform inference with less omics data layers than those used during training.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="840" width="280" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

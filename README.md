@@ -11,3 +11,5 @@ Steps to recreate exepriment.
 `pip show tensorflow-ranking`
 6. Check Tensorflow version, it should be Version: 2.15.1  
 `pip show tensorflow`
+7. Launch Jupyter Notebook  
+`jupyter notebook`   

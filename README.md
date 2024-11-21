@@ -2,7 +2,7 @@ Rank Rx
 
 Steps to recreate exepriment.
 1. Setup environment  
-`conda create -n rankenv python=3.10`
+`conda create -n rankenv`
 2. Activate environment  
 `conda activate rankevn`
 3. Check the Anaconda Navigator > Environments, to see if the created env is activated and if not, manually select it.
@@ -13,6 +13,8 @@ Steps to recreate exepriment.
 8. Check Tensorflow version, it should be Version: 2.15.1  
 `pip show tensorflow`
 9. Check if Jupyter Notebook is installed on the created environment
-10. Launch Jupyter Notebook  
-`jupyter notebook`   
+10. Launch Jupyter Notebook only after having the new environment activated 
+guest@BIOCHEM-WORKSTATION:~$ conda activate rankenv
+(rankenv) guest@BIOCHEM-WORKSTATION:~$ jupyter notebook
+
 11. Install additional modules: pandas

@@ -14,7 +14,9 @@ Steps to recreate exepriment.
 `pip show tensorflow`
 9. Check if Jupyter Notebook is installed on the created environment
 10. Launch Jupyter Notebook only after having the new environment activated 
+`
 guest@BIOCHEM-WORKSTATION:~$ conda activate rankenv
 (rankenv) guest@BIOCHEM-WORKSTATION:~$ jupyter notebook
+`
 
-11. Install additional modules: pandas
+12. Install additional modules: pandas
